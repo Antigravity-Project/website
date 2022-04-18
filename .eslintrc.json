@@ -1,0 +1,7 @@
+{
+	"root": true,
+	"extends": [
+		"@techmmunity/eslint-config/common",
+		"@techmmunity/eslint-config/ts-nextjs"
+	]
+}
