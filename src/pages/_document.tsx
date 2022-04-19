@@ -7,7 +7,7 @@ const Document = () => {
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
 				<link
-					href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins&family=Ubuntu&display=swap"
+					href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins&family=Ubuntu&family=Roboto&display=swap"
 					rel="stylesheet"
 				/>
 				<meta name="theme-color" content="#7F5AF0" />
