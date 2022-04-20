@@ -16,6 +16,7 @@ specifiers:
   eslint-config-next: 12.1.5
   framer-motion: ^6
   next: 12.1.5
+  pnpm: ^6.32.9
   prettier: ^2.6.2
   react: 18.0.0
   react-dom: 18.0.0
@@ -28,6 +29,7 @@ dependencies:
   '@emotion/styled': 11.8.1_04780a0aa92a2187cfa4f37702da5815
   framer-motion: 6.3.0_react-dom@18.0.0+react@18.0.0
   next: 12.1.5_react-dom@18.0.0+react@18.0.0
+  pnpm: 6.32.9
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
   styled-components: 5.3.5_react-dom@18.0.0+react@18.0.0
@@ -3290,6 +3292,12 @@ packages:
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+
+  /pnpm/6.32.9:
+    resolution: {integrity: sha512-fU/urJXv2Q8l4n8FW4Qx54KGDTVMpa3n7azqa7i65XZtG5Mcpa35D+HTmAL/7G3u/3R9WGPG4CdLU7631Ti6aA==}
+    engines: {node: '>=12.17'}
+    hasBin: true
+    dev: false
 
   /popmotion/11.0.3:
     resolution: {integrity: sha512-Y55FLdj3UxkR7Vl3s7Qr4e9m0onSnP8W7d/xQLsoJM40vs6UKHFdygs6SWryasTZYqugMjm3BepCF4CWXDiHgA==}
