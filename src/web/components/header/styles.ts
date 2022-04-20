@@ -75,7 +75,7 @@ export const Hr = styled.hr`
 
 export const DrawerDiv = styled.div`
 	width: 100%;
-	height: 100%;
+	height: 75%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
