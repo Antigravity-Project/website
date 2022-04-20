@@ -11,6 +11,7 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Title } from "styles";
+import { variables } from "styles/variables";
 
 import {
 	Container,
@@ -52,8 +53,8 @@ export const Header: NextPage = () => {
 
 			<Drawer isOpen={isOpen} onClose={closeDrawer} placement="right">
 				<DrawerOverlay />
-				<DrawerContent>
-					<DrawerCloseButton />
+				<DrawerContent backgroundColor={variables.BACKGROUND}>
+					<DrawerCloseButton color={variables.TEXT} />
 					<DrawerHeader borderBottomWidth="1px">
 						<Title>Links</Title>
 					</DrawerHeader>

@@ -51,6 +51,7 @@ export const Li = styled.li`
 export const CustomLink = styled.a`
 	text-decoration: none;
 	font-family: "Poppins";
+	color: ${({ theme }) => theme.TEXT};
 `;
 
 export const CustomButton = styled.button`
