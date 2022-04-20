@@ -1,3 +1,10 @@
+export interface VariablesInterface {
+	TEXT: string;
+	BACKGROUND: string;
+	PURPLE: string;
+	GHOSTED: string;
+}
+
 export const variables = {
 	TEXT: "#FFFFFF",
 	BACKGROUND: "#16161A",
