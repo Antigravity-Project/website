@@ -72,3 +72,11 @@ export const DrawerUl = styled.ul`
 export const Hr = styled.hr`
 	margin: 0.5rem 0;
 `;
+
+export const DrawerDiv = styled.div`
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+`;

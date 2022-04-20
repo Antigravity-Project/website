@@ -13,10 +13,13 @@ import Link from "next/link";
 import { Title } from "styles";
 import { variables } from "styles/variables";
 
+import { Button } from "../button";
+
 import {
 	Container,
 	CustomButton,
 	CustomLink,
+	DrawerDiv,
 	DrawerUl,
 	Hr,
 	Li,
@@ -72,6 +75,9 @@ export const Header: NextPage = () => {
 								</Link>
 							</li>
 						</DrawerUl>
+						<DrawerDiv>
+							<Button>Adicionar o bot</Button>
+						</DrawerDiv>
 					</DrawerBody>
 				</DrawerContent>
 			</Drawer>
