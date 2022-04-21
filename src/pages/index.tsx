@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import { BotInformation, BotInvite, Main, P } from "styles/home";
+import { BotInformation, BotInvite, ImageWrapper, Main, P } from "styles/home";
 import { Button } from "web/components/button";
 import { Header } from "web/components/header";
 
@@ -17,14 +17,17 @@ const Home: NextPage = () => {
 						</P>
 						<Button>Adicionar o bot</Button>
 					</BotInvite>
-					<Image
-						src="/logo.webp"
-						width="240"
-						height="220"
-						style={{
-							borderRadius: "50%",
-						}}
-					/>
+					<ImageWrapper>
+						<Image
+							src="/logo.webp"
+							width="240"
+							height="220"
+							style={{
+								borderRadius: "50%",
+							}}
+							alt="logo"
+						/>
+					</ImageWrapper>
 				</BotInformation>
 			</Main>
 		</>

@@ -30,6 +30,14 @@ export const P = styled(Paragraph)`
 	font-size: 1.2rem;
 `;
 
+export const ImageWrapper = styled.span`
+	transition: 200ms;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+`;
+
 export const BotInvite = styled.div`
 	display: flex;
 	align-items: center;
