@@ -35,7 +35,6 @@ export const ImageWrapper = styled.span`
 
 	&:hover {
 		transform: scale(1.1);
-		border-radius: 20px !important;
 	}
 `;
 
