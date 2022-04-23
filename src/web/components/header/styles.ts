@@ -15,7 +15,7 @@ export const Logo = styled.h1`
 	font-size: 1.5rem;
 	margin-left: 4rem;
 
-	@media (max-width: 600px) {
+	@media (max-width: 800px) {
 		margin-left: 2rem;
 	}
 `;
@@ -33,7 +33,7 @@ export const Ul = styled.ul`
 	list-style: none;
 	gap: 1rem;
 
-	@media (max-width: 600px) {
+	@media (max-width: 800px) {
 		display: none;
 	}
 `;
@@ -60,7 +60,7 @@ export const CustomButton = styled.button`
 	align-items: center;
 	display: none;
 
-	@media (max-width: 600px) {
+	@media (max-width: 800px) {
 		display: flex;
 	}
 `;

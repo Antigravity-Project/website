@@ -47,6 +47,11 @@ export const Header: NextPage = () => {
 								<CustomLink>Termos de Uso</CustomLink>
 							</Link>
 						</Li>
+						<Li>
+							<Link href="/dashboard" passHref>
+								<CustomLink>Dashboard</CustomLink>
+							</Link>
+						</Li>
 					</Ul>
 					<CustomButton onClick={openDrawer}>
 						<Image src="/menu-button.svg" width="24px" height="24px" />
@@ -64,7 +69,7 @@ export const Header: NextPage = () => {
 					<DrawerBody>
 						<DrawerUl>
 							<li>
-								<Link href="#" passHref>
+								<Link href="/commands" passHref>
 									<CustomLink>Comandos</CustomLink>
 								</Link>
 							</li>
@@ -72,6 +77,12 @@ export const Header: NextPage = () => {
 							<li>
 								<Link href="#" passHref>
 									<CustomLink>Termos de Uso</CustomLink>
+								</Link>
+							</li>
+							<Hr />
+							<li>
+								<Link href="/dashboard" passHref>
+									<CustomLink>Dashboard</CustomLink>
 								</Link>
 							</li>
 						</DrawerUl>
