@@ -38,7 +38,7 @@ export const Header: NextPage = () => {
 						))}
 					</ul>
 
-					<Popover className="bg-transparent flex items-center justify-center z-10 md:hidden">
+					<Popover className="bg-transparent flex items-center justify-center md:hidden">
 						<Popover.Button className="flex items-center justify-center">
 							<Image src="/menu-button.svg" width="24px" height="24px" />
 						</Popover.Button>
@@ -52,18 +52,16 @@ export const Header: NextPage = () => {
 							leaveFrom="opacity-100 translate-y-0"
 							leaveTo="opacity-0 translate-y-1"
 						>
-							<Popover.Panel>
-								<div className="absolute top-5 right-1 p-5 items-center shadow-lg bg-white flex flex-col w-[12rem] -z-20">
-									<ul className="list-none gap-4">
-										{navLinks.map(({ href, tag }) => (
-											<li className="p-[0.9rem] cursor-pointer" key={tag}>
-												<Link href={href} passHref>
-													<a className="!text-black link">{tag}</a>
-												</Link>
-											</li>
-										))}
-									</ul>
-								</div>
+							<Popover.Panel className="absolute top-5 right-1 p-5 items-center shadow-lg bg-white flex flex-col w-[12rem] rounded-md">
+								<ul className="list-none gap-4">
+									{navLinks.map(({ href, tag }) => (
+										<li className="p-[0.9rem] cursor-pointer" key={tag}>
+											<Link href={href} passHref>
+												<a className="!text-black link">{tag}</a>
+											</Link>
+										</li>
+									))}
+								</ul>
 							</Popover.Panel>
 						</Transition>
 					</Popover>

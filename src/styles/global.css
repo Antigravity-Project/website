@@ -4,7 +4,7 @@
 
 body,
 html {
-    @apply m-0 p-0 w-screen h-screen overflow-x-hidden scrollbar scrollbar-thumb-zinc-700 scrollbar-track-transparent scrollbar-thin selection:bg-brand-400
+    @apply m-0 p-0 w-screen h-screen overflow-x-hidden scrollbar-thumb-zinc-400 scrollbar-track-transparent scrollbar-thin selection:bg-brand-400
 }
 
 a,
