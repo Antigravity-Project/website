@@ -3,6 +3,9 @@
         "chakra",
         "techmmunity",
         "nextjs",
-        "pnpm"
-    ]
+        "pnpm",
+        "tailwindcss",
+        "headlessui"
+    ],
+    "cSpell.language": "en,pt"
 }

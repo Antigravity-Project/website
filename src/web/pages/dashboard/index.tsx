@@ -2,8 +2,6 @@ import type { NextPage } from "next";
 import { useEffect } from "react";
 import { Header } from "web/components/header";
 
-import { Main } from "./styles";
-
 export const Dashboard: NextPage = () => {
 	useEffect(() => {
 		const userData = localStorage.getItem("antigravity_user");
@@ -16,7 +14,7 @@ export const Dashboard: NextPage = () => {
 	return (
 		<>
 			<Header />
-			<Main />
+			<main className="bg-background-500 h-screen" />
 		</>
 	);
 };
