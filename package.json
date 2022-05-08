@@ -13,6 +13,7 @@
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
     "@headlessui/react": "^1.6.1",
+    "@heroicons/react": "^1.0.6",
     "axios": "^0.27.2",
     "framer-motion": "^6",
     "next": "12.1.6",

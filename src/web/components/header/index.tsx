@@ -52,7 +52,7 @@ export const Header: NextPage = () => {
 							leaveFrom="opacity-100 translate-y-0"
 							leaveTo="opacity-0 translate-y-1"
 						>
-							<Popover.Panel className="absolute top-5 right-1 p-5 items-center shadow-lg bg-white flex flex-col w-[12rem] rounded-md">
+							<Popover.Panel className="!z-10 absolute top-5 right-1 p-5 items-center shadow-lg bg-white flex flex-col w-[12rem] rounded-md">
 								<ul className="list-none gap-4">
 									{navLinks.map(({ href, tag }) => (
 										<li className="p-[0.9rem] cursor-pointer" key={tag}>
