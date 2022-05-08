@@ -7,7 +7,7 @@ export const Home: NextPage = () => {
 	return (
 		<>
 			<Header />
-			<main className="flex flex-col items-center h-screen bg-background-500">
+			<main className="flex flex-col items-center h-screen bg-background-500 z-0">
 				<div className="mt-10 flex flex-col-reverse items-center justify-center gap-12 md:mt-20 md:flex-row md:gap-40">
 					<div className="flex items-center justify-center text-center flex-col gap-7">
 						<p className="w-[35vw] min-w-[20rem] text-xl">
@@ -16,7 +16,7 @@ export const Home: NextPage = () => {
 						</p>
 						<Button>Adicionar o bot</Button>
 					</div>
-					<span className="duration-200 z-auto hover:scale-110">
+					<span className="duration-200 hover:scale-110">
 						<Image
 							src="/logo.webp"
 							width="240"

@@ -22,7 +22,7 @@ const navLinks = [
 export const Header: NextPage = () => {
 	return (
 		<>
-			<header className="flex justify-between items-center bg-background-500 drop-shadow-[0_0_0.5rem_black] h-28 text-white ">
+			<header className="flex justify-between items-center bg-background-500 drop-shadow-[0_0_0.5rem_black] h-28 text-white">
 				<h1 className="font-roboto text-2xl m-8 md:m-16">Antigravity</h1>
 				<nav className="m-8 md:m-16">
 					<ul className="hidden list-none gap-4 md:flex">
@@ -38,7 +38,7 @@ export const Header: NextPage = () => {
 						))}
 					</ul>
 
-					<Popover className="bg-transparent flex items-center justify-center z-20">
+					<Popover className="bg-transparent flex items-center justify-center z-10 md:hidden">
 						<Popover.Button className="flex items-center justify-center">
 							<Image src="/menu-button.svg" width="24px" height="24px" />
 						</Popover.Button>
