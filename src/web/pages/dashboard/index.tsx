@@ -4,7 +4,7 @@ import { Header } from "web/components/header";
 
 export const Dashboard: NextPage = () => {
 	useEffect(() => {
-		const userData = localStorage.getItem("antigravity_user");
+		const userData = localStorage.getItem("account");
 		if (!userData) {
 			window.location.href = process.env
 				.NEXT_PUBLIC_DISCORD_AUTHORIZATION_LINK as string;
